@@ -220,6 +220,7 @@ p,li{
     text-decoration: none;
     text-align: center;
     background:none;
+    color: #000;
     outline: none;
     border: 3px solid var(--colorP);
     width: 120px;
@@ -314,7 +315,7 @@ p,li{
 .iconosContacto>a>i:hover{
     color: var(--colorP);
 }
-@media screen and (max-width:750px){
+@media screen and (max-width:950px){
     .icono{
         display: flex;
         position: fixed;
@@ -365,9 +366,6 @@ p,li{
     }
     h2,h3{
         margin: 0 5px;
-    }
-    .icono2{
-        margin: 0;
     }
 }
 @media screen and (max-width:625px){
