@@ -29,10 +29,10 @@
                     </h1>
                     <div class="linea"></div>
                     <ul class="lista-enlaces">
-                        <li><button id="btn1"><i class="fas fa-house-user"></i> Inicio</li></button>
-                        <li><button id="btn2"><i class="fas fa-address-card"></i> Sobre mi</li></button>
-                        <li><button id="btn3"><i class="fas fa-code"></i> Proyectos</button></li></button>
-                        <li><button id="btn4"><i class="fas fa-envelope-open"></i></i></i> Contacto </button></li>
+                        <li><button class="btn" onclick="funcionSecciones('inicio')"><i class="fas fa-house-user"></i> Inicio</li></button>
+                        <li><button class="btn" onclick="funcionSecciones('sobreMi')"><i class="fas fa-address-card"></i> Sobre mi</li></button>
+                        <li><button class="btn" onclick="funcionSecciones('proyectos')"><i class="fas fa-code"></i> Proyectos</button></li></button>
+                        <li><button class="btn" onclick="funcionSecciones('contacto')"><i class="fas fa-envelope-open"></i></i></i> Contacto </button></li>
                         </button>
                     </ul>
                 </div>
@@ -40,7 +40,7 @@
         </header>
         <section class="informacion">
             <span class="icono" id="icono">&#9776</span>
-            <div class="inicio" id="inicio">
+            <div class="inicio seccion" id="inicio">
                 <div class="img">
                     <img src="assets/img/perfil.jpg" alt="foto">
                 </div>
@@ -50,14 +50,12 @@
                     <h3>Estudiante de Ingeniería de Sistemas y Desarrollador web</h3>
                     <div class="iconos">
                         <a target="_blank" href="https://github.com/Juan-CamiloF"><i class="fab fa-github"></i></a>
-                        <a target="_blank"
-                            href="https://www.linkedin.com/in/juan-camilo-fandiño-benavides-9916611a2/"><i
-                                class="fab fa-linkedin-in"></i></a>
+                        <a target="_blank" href="https://www.linkedin.com/in/juan-camilo-fandiño-benavides-9916611a2/"><i class="fab fa-linkedin-in"></i></a>
                         <a target="_blank" href=" https://twitter.com/Juan_Developer"><i class="fab fa-twitter"></i></a>
                     </div>
                 </div>
             </div>
-            <div class="sobreMi" id="sobreMi">
+            <div class="sobreMi invisible seccion" id="sobreMi">
                 <div>
                     <h2 class="titulo-sobreMi">Perfil</h2>
                 </div>
@@ -103,9 +101,10 @@
                         </li>
                     </ul>
                 </div>
-                <a class="btnCV" href="assets/Juan Camilo Fandiño Benavides_CV.pdf" target="_blank">Hoja de vida completa</a>
+                <a class="btnCV" href="assets/Juan Camilo Fandiño Benavides_CV.pdf" target="_blank">Hoja de vida
+                    completa</a>
             </div>
-            <div class="proyectos" id="proyectos">
+            <div class="proyectos invisible seccion" id="proyectos">
                 <h2>
                     Proyectos
                 </h2>
@@ -208,13 +207,13 @@
                     </a>
                 </div>
             </div>
-            <div class="contacto" id="contacto">
+            <div class="contacto invisible seccion" id="contacto">
                 <h2 class="tituloContacto">Contacto</h2>
                 <p class="parrafoContacto"> Puedes contactarme por medio de mi</p>
                 <div class="iconosContacto">
-                   <a href="https://wa.link/60ry7f"><i class="fab fa-whatsapp"></i></a> 
-                   <a href="mailto:juancamilo.fb19@correo.com"><i class="far fa-envelope-open"></i></a>
-                   <a href="https://t.me/JuanCamiloFB"><i class="fab fa-telegram-plane"></i></a>
+                    <a href="https://wa.link/60ry7f"><i class="fab fa-whatsapp"></i></a>
+                    <a href="mailto:juancamilo.fb19@correo.com"><i class="far fa-envelope-open"></i></a>
+                    <a href="https://t.me/JuanCamiloFB"><i class="fab fa-telegram-plane"></i></a>
                 </div>
             </div>
             <div class="icono2">
@@ -225,21 +224,21 @@
                     <p>Colores</p>
                     <div class="colores">
                         <div class="color blanco" onclick="color('Cblanco')">
-                            <span  class="xColor" ></span>
+                            <span class="xColor"></span>
                         </div>
                         <div class="color negro" onclick="color('Cnegro')">
-                            <span  class="xColor"></span>
+                            <span class="xColor"></span>
                         </div>
                         <div class="color rosa" onclick="color('Crosa')">
-                            <span  class="xColor"></span>
+                            <span class="xColor"></span>
                         </div>
                         <div class="color morado" onclick="color('Cmorado')">
-                            <span  class="xColor"></span>
+                            <span class="xColor"></span>
                         </div>
                         <div class="color azul" onclick="color('Cazul')">
-                            <span  class="xColor" >&#10006</span>
+                            <span class="xColor">&#10006</span>
                         </div>
-                        
+
                     </div>
                 </div>
             </div>

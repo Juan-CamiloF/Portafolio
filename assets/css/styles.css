@@ -46,8 +46,9 @@ main{
 }
 
 .invisible{
-    display: none;
+    display: none !important;
 }
+
 .espacioColores{
     margin: 0 20px 20px 20px;
 }
@@ -360,6 +361,12 @@ p,li{
     }
 }
 
+@media screen and (max-width:625px){
+    .contenedorProyectos{
+        justify-content: center;
+    }
+}
+
 @media screen and (max-width:430px){
     h2{
         font-size: 30px;
@@ -367,10 +374,8 @@ p,li{
     h2,h3{
         margin: 0 5px;
     }
-}
-@media screen and (max-width:625px){
-    .contenedorProyectos{
-        justify-content: center;
+    .img > img{
+        width: 250px;
     }
 }
 @media screen and (max-width:300px){
@@ -378,7 +383,7 @@ p,li{
         text-align: justify;
     }
     .img > img{
-        width: 250px;
+        width: 230px;
     }
     .iconos>a>i{
         font-size: 25px;

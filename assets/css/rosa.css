@@ -19,7 +19,7 @@
 .iconosContacto>a>i:hover{
     color: var(--colorC);
 }
-@media screen and (max-width:750px){
+@media screen and (max-width:950px){
     .barra{
         width: 100%;
         z-index: 500;
