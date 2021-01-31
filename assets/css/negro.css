@@ -1,0 +1,38 @@
+.icono2 i, .lista-enlaces li>button:hover, .btnCV:active{
+    color:var(--colorT);
+}
+.textos-inicio, .informacion, .linea, .btnCV:hover, .capa, .icono {
+    background-color: var(--colorT);
+}
+.barra{
+    border-right: 5px solid var(--colorT);
+}
+.img>img{
+    border: 5px solid var(--colorT);
+}
+.btnCV{
+    border: 3px solid var(--colorT);
+}
+.iconos>a>i{
+    color: #fff;
+}.iconos>a>i:hover{
+    color: rgb(179, 177, 177);
+}
+.iconosContacto>a>i:hover{
+    color: var(--colorP);
+}
+@media screen and (max-width:750px){
+    .barra{
+        width: 100%;
+        z-index: 500;
+        padding-top: 20px;
+        background: #0F2027;  
+        background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027); 
+        background: linear-gradient(to right, #2C5364, #203A43, #0F2027); 
+        transition: all 1s ease;
+    }
+    .linea{
+        background:#fff;
+    }
+}
+

@@ -1,0 +1,36 @@
+.icono2 i, .lista-enlaces li>button:hover, .btnCV:active{
+    color:var(--colorC);
+}
+.textos-inicio, .informacion, .linea, .btnCV:hover, .capa, .icono {
+    background-color: var(--colorC);
+}
+.barra{
+    border-right: 5px solid var(--colorC);
+}
+.img>img{
+    border: 5px solid var(--colorC);
+}
+.btnCV{
+    border: 3px solid var(--colorC);
+}
+.iconos>a>i{
+    color: #a00854f8;
+}
+.iconosContacto>a>i:hover{
+    color: var(--colorC);
+}
+@media screen and (max-width:750px){
+    .barra{
+        width: 100%;
+        z-index: 500;
+        padding-top: 20px;
+        background: #3494E6;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #EC6EAD, #3494E6);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #EC6EAD, #3494E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        transition: all 1s ease;
+    }
+    .linea{
+        background:#fff;
+    }
+}
+

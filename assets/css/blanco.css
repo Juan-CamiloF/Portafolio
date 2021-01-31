@@ -1,0 +1,35 @@
+.icono2 i, .lista-enlaces li>button:hover, .btnCV:active{
+    color:var(--colorS);
+}
+.textos-inicio, .informacion, .linea, .btnCV:hover, .capa, .icono {
+    background-color: var(--colorS);
+}
+.barra{
+    border-right: 5px solid var(--colorS);
+}
+.img>img{
+    border: 5px solid var(--colorS);
+}
+.btnCV{
+    border: 3px solid var(--colorS);
+}
+.barra, .contenido, .lista-enlaces button{
+    color: #000;
+}
+.iconosContacto>a>i:hover{
+    color: var(--colorS);
+}
+@media screen and (max-width:750px){
+    .barra{
+        width: 100%;
+        z-index: 500;
+        padding-top: 20px;
+        background: #FFEFBA;
+        background: -webkit-linear-gradient(to right, #FFFFFF, #FFEFBA); 
+        background: linear-gradient(to right, #FFFFFF, #FFEFBA); 
+        transition: all 1s ease;
+    }
+    .linea{
+        background:var(--colorS);
+    }
+}
