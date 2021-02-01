@@ -22,14 +22,16 @@ btnColor.addEventListener("click", () => {
 });
 
 //Cambio de color y guardarlo
-function color(color) {
+async function color(color) {
   for (let i = 0; i < totalColores; i++) {
     if (color == cssColores[i].getAttribute("title")) {
       localStorage.setItem("color",color);
-      cssColores[i].removeAttribute("disabled");
+      await cssColores[i].removeAttribute("disabled");
+      console.log('simon')
       span[i].innerHTML = "&#10006";
     } else {
-      cssColores[i].setAttribute("disabled", true);
+      await cssColores[i].setAttribute("disabled", true);
+      console.log('simon')
       span[i].innerHTML = "";
     }
   }
