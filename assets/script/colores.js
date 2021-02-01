@@ -27,11 +27,9 @@ async function color(color) {
     if (color == cssColores[i].getAttribute("title")) {
       localStorage.setItem("color",color);
       await cssColores[i].removeAttribute("disabled");
-      console.log('simon')
       span[i].innerHTML = "&#10006";
     } else {
       await cssColores[i].setAttribute("disabled", true);
-      console.log('simon')
       span[i].innerHTML = "";
     }
   }
@@ -41,3 +39,5 @@ async function color(color) {
 if(localStorage.getItem("color")){
     color(localStorage.getItem("color")); 
 }
+
+color('azul')
