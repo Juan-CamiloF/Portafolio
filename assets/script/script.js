@@ -47,7 +47,6 @@ window.addEventListener("resize", () => {
 
 //Cerrar el menú cuando se de click a un btn
 const btn = document.querySelectorAll('.btn');
-console.log(btn)
 function cerrarBarra(estado) {
   if (estado == 1) {
     for (let i = 0; i < btn.length; i++) {
