@@ -316,7 +316,10 @@ p,li{
    font-size: 30px;
    color: #000;
 }
-.hover>a>i:hover{
+.iconos .hover>a>i:hover{
+    color: #fff;
+}
+#moviles2>a>i:hover{
     color: var(--colorP);
 }
 @media screen and (max-width:950px){

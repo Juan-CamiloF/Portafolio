@@ -19,6 +19,9 @@
 .iconosContacto>a>i:hover{
     color: var(--colorS);
 }
+.hover>a>i:hover{
+    color: #fff;
+}
 @media screen and (max-width:950px){
     .barra{
         width: 100%;
