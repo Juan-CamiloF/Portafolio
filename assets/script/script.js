@@ -38,7 +38,7 @@ btnIcon.addEventListener("click", () => {
 });
 //Cerrar el menu si esta abierto y el tamaño aumenta
 window.addEventListener("resize", () => {
-  if (screen.width > 750) {
+  if (screen.width > 950) {
     i = 0;
     barra.classList.remove("dos");
     barra.className = "barra uno";
@@ -61,5 +61,5 @@ function barraCerrada() {
   btnIcon.innerHTML = `&#9776`;
   i = 0;
 }
-//Llamar la funcion del localStorageS
+//Llamar la funcion del localStorage
 funcionLocalStorage()

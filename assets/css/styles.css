@@ -41,6 +41,9 @@ main{
     color: var(--colorP);
     cursor: pointer;
 }
+.icono2 i :focus{
+    outline: none;
+}
 .icono2 i:hover{
     opacity: 0.5;
 }
@@ -177,7 +180,7 @@ main{
    font-size: 30px;
    color: #26064b;
 }
-.iconos>a>i:hover{
+.hover>a>i:hover{
     color: #ffffff;
 }
 .sobreMi{
@@ -313,10 +316,16 @@ p,li{
    font-size: 30px;
    color: #000;
 }
-.iconosContacto>a>i:hover{
+.hover>a>i:hover{
     color: var(--colorP);
 }
 @media screen and (max-width:950px){
+    .icono,.icono2 i:hover{
+        opacity: 1;
+    }
+    .iconosContacto>a>i:hover{
+        color: none;
+    }
     .icono{
         display: flex;
         position: fixed;
@@ -328,9 +337,6 @@ p,li{
         z-index: 500;
         cursor: pointer;
         border-radius: 0 0 10px 0;
-    }
-    .icono:hover{
-        opacity: 0.8;
     }
     .barra{
         width: 100%;

@@ -39,5 +39,3 @@ async function color(color) {
 if(localStorage.getItem("color")){
     color(localStorage.getItem("color")); 
 }
-
-color('azul')
