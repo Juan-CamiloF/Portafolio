@@ -205,10 +205,10 @@ p,li{
 }
 .educacion{
     width: 90%;
-    margin: 20px 0;
+    margin: 10px 0;
     text-align: justify;
 }
-.titulo-educacion , .titulo-certificaciones{
+.titulo-educacion , .titulo-certificaciones, .titulo-distincion{
     margin:10px 0 ;
 }
 .contacto{
